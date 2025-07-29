@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+
+# Migrations (optional: if you're auto-generating them)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Environment variable files
+.env
+.env.*
+
+# MyPy / Pyright
+.mypy_cache/
+.pyright/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Test output
+test-results/
